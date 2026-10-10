@@ -401,106 +401,80 @@ function renderCharts(){
 //==============================================
 //  Persistence
 //==============================================
+    async function fetchJSON(path){
+      const res = await fetch(path, { cache: 'no-store' });
+      if(!res.ok) throw new Error(path + ' returned HTTP ' + res.status);
+      return res.json();
+    }
     async function loadAll(){
       let loaded = false;
+      let payload = null;
+      let source = '';
+
+      // 1) Try the PHP endpoint (works on your server).
       try{
-        // Load communities and ecosystems from data.json
-        const r = await fetch('api/data.php');
-        const j = await r.json();
-        if(j && j.data && typeof j.data === 'object'){
-          if(Array.isArray(j.data.communities)){
-            // Convert array to object keyed by communityId
-            const newCommunities = {};
-            j.data.communities.forEach(c => {
-              newCommunities[c.communityId] = c;
-            });
-            communities = newCommunities;
-          } else if (j.data.communities && typeof j.data.communities === 'object') {
-            communities = j.data.communities;
-          }
-          if(Array.isArray(j.data.ecosystems)) ecosystems.splice(0, ecosystems.length, ...j.data.ecosystems);
-          loaded = true;
+        const j = await fetchJSON('api/data.php');
+        if(j && j.data && typeof j.data === 'object'){ payload = j.data; source = 'server'; }
+      }catch(e){ console.warn('api/data.php unavailable, falling back to data.json:', e.message); }
+
+      // 2) Fall back to the static data.json (works on GitHub Pages / any static host).
+      if(!payload){
+        try{
+          const j = await fetchJSON('data.json');
+          payload = (j && j.data && typeof j.data === 'object') ? j.data : j;
+          source = 'static file';
+        }catch(e){ console.error('Failed to load data.json:', e); }
+      }
+
+      if(payload && typeof payload === 'object'){
+        if(Array.isArray(payload.communities)){
+          const newCommunities = {};
+          payload.communities.forEach(c => { newCommunities[c.communityId] = c; });
+          communities = newCommunities;
+        } else if(payload.communities && typeof payload.communities === 'object'){
+          communities = payload.communities;
         }
-        
-        // Load investments from investments.json
-        try {
-          const invR = await fetch('investments.json');
-          const invJ = await invR.json();
-          if(Array.isArray(invJ)){
-            investments = invJ;
-          }
-        } catch(e) {
-          console.error('Failed to load investments:', e);
-          investments = [];
-        }
-        
-        // Load expenses from expenses.json
-        try {
-          const expR = await fetch('expenses.json');
-          const expJ = await expR.json();
-          if(Array.isArray(expJ)){
-            expenses = expJ;
-          }
-        } catch(e) {
-          console.error('Failed to load expenses:', e);
-          expenses = [];
-        }
-        
-        // Load investments from investments.json
-        try {
-          const invR = await fetch('investments.json');
-          const invJ = await invR.json();
-          if(Array.isArray(invJ)){
-            investments = invJ;
-          }
-        } catch(e) {
-          console.error('Failed to load investments:', e);
-          investments = [];
-        }
-        
-        // Load expenses from expenses.json
-        try {
-          const expR = await fetch('expenses.json');
-          const expJ = await expR.json();
-          if(Array.isArray(expJ)){
-            expenses = expJ;
-          }
-        } catch(e) {
-          console.error('Failed to load expenses:', e);
-          expenses = [];
-        }
-        
-        if(Array.isArray(j.data.charts)) charts = j.data.charts;
-        syncStatusMsg = 'Loaded saved data from disk.';
-        
+        if(Array.isArray(payload.ecosystems)) ecosystems.splice(0, ecosystems.length, ...payload.ecosystems);
+        if(Array.isArray(payload.charts)) charts = payload.charts;
+        loaded = true;
+      }
+
+      // Investments and expenses are independent static files; one failing must not affect the rest.
+      try{
+        const invJ = await fetchJSON('investments.json');
+        investments = Array.isArray(invJ) ? invJ : [];
+      }catch(e){ console.error('Failed to load investments:', e); investments = []; }
+      try{
+        const expJ = await fetchJSON('expenses.json');
+        expenses = Array.isArray(expJ) ? expJ : [];
+      }catch(e){ console.error('Failed to load expenses:', e); expenses = []; }
+
+      if(loaded){
+        syncStatusMsg = 'Loaded saved data from ' + source + '.';
         if(typeof updateAppData === 'function'){
           updateAppData({ communities, investments, expenses });
         }
-      }catch(e){ }
-
-      if(!loaded){
+      } else {
         communities = {};
         investments = [];
         expenses = [];
         charts = [];
-        ecosystems = [];
+        ecosystems.splice(0, ecosystems.length);
         syncStatusMsg = 'No saved data found. Add a community to get started.';
       }
 
       ready = true;
       const communityIds = Object.keys(communities);
       if(communityIds.length && !activeCommunityId) activeCommunityId = communityIds[0];
-      
-      
+
       window.communities = communities;
       window.investments = investments;
       window.expenses = expenses;
-      
-      
+
       if(typeof populateAllSubnavs === 'function'){
         populateAllSubnavs();
       }
-      
+
       render();
       refreshDriveStatus();
     }
