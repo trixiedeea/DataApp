@@ -1,0 +1,1055 @@
+{
+    "communities": {
+        "EASTERN-CHEROKEE-01": {
+            "id": "EASTERN-CHEROKEE-01",
+            "communityId": "EASTERN-CHEROKEE-01",
+            "tribeNation": "CHEREOKEE",
+            "geography": {
+                "locationId": "LOC-65437",
+                "communityName": "Eastern Band of Cherokee Indians",
+                "bookEcosystem": "Tribal Nations",
+                "gisCoordinates": "35.4735, -83.3130",
+                "region": "United States"
+            },
+            "population": {
+                "reportingYear": "2026",
+                "ruralUrban": "Rural",
+                "population": 16100,
+                "participantsServed": 410,
+                "estimatedFootTraffic": 1250
+            },
+            "program": {
+                "programId": "PRG-EBCI-01",
+                "stewardName": "Amanda Swimmer",
+                "startDate": "2024-03-01",
+                "status": "Active",
+                "baselineDate": "2024-03-15",
+                "sixMonthDate": "2024-09-15",
+                "twelveMonthDate": "2025-03-15",
+                "twentyFourMonthDate": "2026-03-15"
+            },
+            "library": {
+                "libraryId": "LIB-EBCI-01",
+                "publicSchoolLibrary": "Both",
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "collectionQuality": "Fair",
+                        "physicalVisitsPerMonth": 180,
+                        "restockRate": 1.2,
+                        "booksDeliveredQuantity": 600
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "collectionQuality": "Good",
+                        "physicalVisitsPerMonth": 203,
+                        "restockRate": 1.5,
+                        "booksDeliveredQuantity": 667
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "collectionQuality": "Good",
+                        "physicalVisitsPerMonth": 256,
+                        "restockRate": 1.7,
+                        "booksDeliveredQuantity": 888
+                    },
+                    {
+                        "assessmentPoint": "24 Months",
+                        "collectionQuality": "Excellent",
+                        "physicalVisitsPerMonth": 276,
+                        "restockRate": 1.9,
+                        "booksDeliveredQuantity": 912
+                    }
+                ]
+            },
+            "outcomes": {
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "kindergartenReadinessScore": 48,
+                        "grade4ReadingScore": 51,
+                        "grade8ReadingScore": 49,
+                        "literacyScore": 50,
+                        "highSchoolGraduationRate": 72,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "DIBELS",
+                        "percentageBenchmark": 50
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "kindergartenReadinessScore": 49.7,
+                        "grade4ReadingScore": 52.7,
+                        "grade8ReadingScore": 50.4,
+                        "literacyScore": 51.7,
+                        "highSchoolGraduationRate": 72.9,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "DIBELS",
+                        "percentageBenchmark": 53.5
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "kindergartenReadinessScore": 52.2,
+                        "grade4ReadingScore": 55.2,
+                        "grade8ReadingScore": 52.3,
+                        "literacyScore": 54.2,
+                        "highSchoolGraduationRate": 74.1,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "DIBELS",
+                        "percentageBenchmark": 58.3
+                    },
+                    {
+                        "assessmentPoint": "24 Months",
+                        "kindergartenReadinessScore": 57,
+                        "grade4ReadingScore": 60,
+                        "grade8ReadingScore": 56.2,
+                        "literacyScore": 59,
+                        "highSchoolGraduationRate": 76.5,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "DIBELS",
+                        "percentageBenchmark": 68
+                    }
+                ]
+            }
+        },
+        "LUMBEE-TRIBE-01": {
+            "id": "LUMBEE-TRIBE-01",
+            "communityId": "LUMBEE-TRIBE-01",
+            "tribeNation": "LUMBEE",
+            "geography": {
+                "locationId": "LOC-71209",
+                "communityName": "Lumbee Tribe of North Carolina",
+                "bookEcosystem": "Tribal Nations",
+                "gisCoordinates": "34.6785, -79.1970",
+                "region": "United States"
+            },
+            "population": {
+                "reportingYear": "2026",
+                "ruralUrban": "Rural",
+                "population": 55000,
+                "participantsServed": 860,
+                "estimatedFootTraffic": 2100
+            },
+            "program": {
+                "programId": "PRG-LTNC-01",
+                "stewardName": "Bruce Locklear",
+                "startDate": "2024-05-01",
+                "status": "Active",
+                "baselineDate": "2024-05-10",
+                "sixMonthDate": "2024-11-10",
+                "twelveMonthDate": "2025-05-10",
+                "twentyFourMonthDate": null
+            },
+            "library": {
+                "libraryId": "LIB-LTNC-01",
+                "publicSchoolLibrary": "Public",
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "collectionQuality": "Fair",
+                        "physicalVisitsPerMonth": 220,
+                        "restockRate": 0.9,
+                        "booksDeliveredQuantity": 750
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "collectionQuality": "Fair",
+                        "physicalVisitsPerMonth": 257,
+                        "restockRate": 1.3,
+                        "booksDeliveredQuantity": 828
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "collectionQuality": "Good",
+                        "physicalVisitsPerMonth": 278,
+                        "restockRate": 1.8,
+                        "booksDeliveredQuantity": 850
+                    },
+                    {
+                        "assessmentPoint": "24 Months",
+                        "collectionQuality": "Good",
+                        "physicalVisitsPerMonth": 310,
+                        "restockRate": 2.7,
+                        "booksDeliveredQuantity": 930
+                    }
+                ]
+            },
+            "outcomes": {
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "kindergartenReadinessScore": 45,
+                        "grade4ReadingScore": 49,
+                        "grade8ReadingScore": 47,
+                        "literacyScore": 48,
+                        "highSchoolGraduationRate": 68,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "MAP Growth",
+                        "percentageBenchmark": 50
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "kindergartenReadinessScore": 46.9,
+                        "grade4ReadingScore": 50.9,
+                        "grade8ReadingScore": 48.5,
+                        "literacyScore": 49.9,
+                        "highSchoolGraduationRate": 68.9,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "MAP Growth",
+                        "percentageBenchmark": 53.8
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "kindergartenReadinessScore": 50.1,
+                        "grade4ReadingScore": 54.1,
+                        "grade8ReadingScore": 51.1,
+                        "literacyScore": 53.1,
+                        "highSchoolGraduationRate": 70.6,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "MAP Growth",
+                        "percentageBenchmark": 60.2
+                    },
+                    {
+                        "assessmentPoint": "24 Months",
+                        "kindergartenReadinessScore": 65.1,
+                        "grade4ReadingScore": 62.1,
+                        "grade8ReadingScore": 65.1,
+                        "literacyScore": 67.1,
+                        "highSchoolGraduationRate": 75.6,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "MAP Growth",
+                        "percentageBenchmark": 60.2
+                    }
+                ]
+            }
+        },
+        "NORTHERN-CHEYENNE-01": {
+            "id": "NORTHERN-CHEYENNE-01",
+            "communityId": "NORTHERN-CHEYENNE-01",
+            "tribeNation": "NORTHERN-CHEYENNE",
+            "geography": {
+                "locationId": "LOC-30443",
+                "communityName": "Northern Cheyenne Tribe",
+                "bookEcosystem": "Tribal Nations",
+                "gisCoordinates": "45.6136, -106.6647",
+                "region": "United States"
+            },
+            "population": {
+                "reportingYear": "2025",
+                "ruralUrban": "Rural",
+                "population": 4900,
+                "participantsServed": 300,
+                "estimatedFootTraffic": 900
+            },
+            "program": {
+                "programId": "PRG-NCT-01",
+                "stewardName": "Rowena Spotted Wolf",
+                "startDate": "2022-09-01",
+                "status": "Completed",
+                "baselineDate": "2022-09-15",
+                "sixMonthDate": "2023-03-15",
+                "twelveMonthDate": "2023-09-15",
+                "twentyFourMonthDate": "2024-09-15"
+            },
+            "library": {
+                "libraryId": "LIB-NCT-01",
+                "publicSchoolLibrary": "School",
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "collectionQuality": "Poor",
+                        "physicalVisitsPerMonth": 95,
+                        "restockRate": 1,
+                        "booksDeliveredQuantity": 420
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "collectionQuality": "Fair",
+                        "physicalVisitsPerMonth": 120,
+                        "restockRate": 1.2,
+                        "booksDeliveredQuantity": 518
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "collectionQuality": "Good",
+                        "physicalVisitsPerMonth": 131,
+                        "restockRate": 1.7,
+                        "booksDeliveredQuantity": 608
+                    },
+                    {
+                        "assessmentPoint": "24 Months",
+                        "collectionQuality": "Good",
+                        "physicalVisitsPerMonth": 197,
+                        "restockRate": 1.9,
+                        "booksDeliveredQuantity": 585
+                    }
+                ]
+            },
+            "outcomes": {
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "kindergartenReadinessScore": 41,
+                        "grade4ReadingScore": 44,
+                        "grade8ReadingScore": 43,
+                        "literacyScore": 42,
+                        "highSchoolGraduationRate": 64,
+                        "nationalStateAverageKindergartenReadinessScore": 56,
+                        "nationalStateAverageGrade4ReadingScore": 58,
+                        "nationalStateAverageGrade8ReadingScore": 57,
+                        "nationalStateLiteracyScore": 57,
+                        "nationalStateHighSchoolGraduationRate": 85,
+                        "assessmentTool": "DIBELS",
+                        "percentageBenchmark": 50
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "kindergartenReadinessScore": 43.8,
+                        "grade4ReadingScore": 46.8,
+                        "grade8ReadingScore": 45.3,
+                        "literacyScore": 44.8,
+                        "highSchoolGraduationRate": 65.4,
+                        "nationalStateAverageKindergartenReadinessScore": 56,
+                        "nationalStateAverageGrade4ReadingScore": 58,
+                        "nationalStateAverageGrade8ReadingScore": 57,
+                        "nationalStateLiteracyScore": 57,
+                        "nationalStateHighSchoolGraduationRate": 85,
+                        "assessmentTool": "DIBELS",
+                        "percentageBenchmark": 55.7
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "kindergartenReadinessScore": 48.9,
+                        "grade4ReadingScore": 51.9,
+                        "grade8ReadingScore": 49.3,
+                        "literacyScore": 49.9,
+                        "highSchoolGraduationRate": 67.9,
+                        "nationalStateAverageKindergartenReadinessScore": 56,
+                        "nationalStateAverageGrade4ReadingScore": 58,
+                        "nationalStateAverageGrade8ReadingScore": 57,
+                        "nationalStateLiteracyScore": 57,
+                        "nationalStateHighSchoolGraduationRate": 85,
+                        "assessmentTool": "DIBELS",
+                        "percentageBenchmark": 65.7
+                    },
+                    {
+                        "assessmentPoint": "24 Months",
+                        "kindergartenReadinessScore": 48.3,
+                        "grade4ReadingScore": 51.3,
+                        "grade8ReadingScore": 48.9,
+                        "literacyScore": 49.3,
+                        "highSchoolGraduationRate": 67.7,
+                        "nationalStateAverageKindergartenReadinessScore": 56,
+                        "nationalStateAverageGrade4ReadingScore": 58,
+                        "nationalStateAverageGrade8ReadingScore": 57,
+                        "nationalStateLiteracyScore": 57,
+                        "nationalStateHighSchoolGraduationRate": 85,
+                        "assessmentTool": "DIBELS",
+                        "percentageBenchmark": 64.7
+                    }
+                ]
+            }
+        },
+        "SANTO-DOMINGO-PUEBLO-01": {
+            "id": "SANTO-DOMINGO-PUEBLO-01",
+            "communityId": "SANTO-DOMINGO-PUEBLO-01",
+            "tribeNation": "SANTO-DOMINGO-PUEBLO",
+            "geography": {
+                "locationId": "LOC-58724",
+                "communityName": "Santo Domingo Pueblo",
+                "bookEcosystem": "Tribal Nations",
+                "gisCoordinates": "35.5350, -106.3600",
+                "region": "United States"
+            },
+            "population": {
+                "reportingYear": "2026",
+                "ruralUrban": "Rural",
+                "population": 3100,
+                "participantsServed": 190,
+                "estimatedFootTraffic": 540
+            },
+            "program": {
+                "programId": "PRG-SDP-01",
+                "stewardName": "Josephine Aguilar",
+                "startDate": "2025-06-01",
+                "status": "Active",
+                "baselineDate": "2025-06-10",
+                "sixMonthDate": "2025-12-10",
+                "twelveMonthDate": null,
+                "twentyFourMonthDate": null
+            },
+            "library": {
+                "libraryId": "LIB-SDP-01",
+                "publicSchoolLibrary": "Both",
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "collectionQuality": "Poor",
+                        "physicalVisitsPerMonth": 60,
+                        "restockRate": 0.8,
+                        "booksDeliveredQuantity": 260
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "collectionQuality": "Fair",
+                        "physicalVisitsPerMonth": 94,
+                        "restockRate": 1.4,
+                        "booksDeliveredQuantity": 356
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "collectionQuality": "Good",
+                        "physicalVisitsPerMonth": 140,
+                        "restockRate": 2.7,
+                        "booksDeliveredQuantity": 520
+                    },
+                    {
+                        "assessmentPoint": "24 Months",
+                        "collectionQuality": "Excellent",
+                        "physicalVisitsPerMonth": 180,
+                        "restockRate": 3.5,
+                        "booksDeliveredQuantity": 650
+                    }
+                ]
+            },
+            "outcomes": {
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "kindergartenReadinessScore": 39,
+                        "grade4ReadingScore": 42,
+                        "grade8ReadingScore": 41,
+                        "literacyScore": 40,
+                        "highSchoolGraduationRate": 61,
+                        "nationalStateAverageKindergartenReadinessScore": 57,
+                        "nationalStateAverageGrade4ReadingScore": 59,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 58,
+                        "nationalStateHighSchoolGraduationRate": 86,
+                        "assessmentTool": "DIBELS",
+                        "percentageBenchmark": 50
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "kindergartenReadinessScore": 42.3,
+                        "grade4ReadingScore": 45.3,
+                        "grade8ReadingScore": 43.6,
+                        "literacyScore": 43.3,
+                        "highSchoolGraduationRate": 62.6,
+                        "nationalStateAverageKindergartenReadinessScore": 57,
+                        "nationalStateAverageGrade4ReadingScore": 59,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 58,
+                        "nationalStateHighSchoolGraduationRate": 86,
+                        "assessmentTool": "DIBELS",
+                        "percentageBenchmark": 56.5
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "kindergartenReadinessScore": 54.1,
+                        "grade4ReadingScore": 54.2,
+                        "grade8ReadingScore": 64.5,
+                        "literacyScore": 72.1,
+                        "highSchoolGraduationRate": 71.6,
+                        "nationalStateAverageKindergartenReadinessScore": 57,
+                        "nationalStateAverageGrade4ReadingScore": 59,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 58,
+                        "nationalStateHighSchoolGraduationRate": 86,
+                        "assessmentTool": "DIBELS",
+                        "percentageBenchmark": 56.5
+                    },
+                    {
+                        "assessmentPoint": "24 Months",
+                        "kindergartenReadinessScore": 58.1,
+                        "grade4ReadingScore": 58.2,
+                        "grade8ReadingScore": 68.5,
+                        "literacyScore": 76.1,
+                        "highSchoolGraduationRate": 81.6,
+                        "nationalStateAverageKindergartenReadinessScore": 57,
+                        "nationalStateAverageGrade4ReadingScore": 59,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 58,
+                        "nationalStateHighSchoolGraduationRate": 86,
+                        "assessmentTool": "DIBELS",
+                        "percentageBenchmark": 56.5
+                    }
+                ]
+            }
+        },
+        "YUROK-TRIBE-01": {
+            "id": "YUROK-TRIBE-01",
+            "communityId": "YUROK-TRIBE-01",
+            "tribeNation": "YUROK",
+            "geography": {
+                "locationId": "LOC-84391",
+                "communityName": "Yurok Tribe",
+                "bookEcosystem": "Tribal Nations",
+                "gisCoordinates": "41.5251, -124.0379",
+                "region": "United States"
+            },
+            "population": {
+                "reportingYear": "2025",
+                "ruralUrban": "Rural",
+                "population": 6400,
+                "participantsServed": 275,
+                "estimatedFootTraffic": 760
+            },
+            "program": {
+                "programId": "PRG-YT-01",
+                "stewardName": "Frankie James",
+                "startDate": "2024-01-01",
+                "status": "Paused",
+                "baselineDate": "2024-01-15",
+                "sixMonthDate": "2024-07-15",
+                "twelveMonthDate": null,
+                "twentyFourMonthDate": null
+            },
+            "library": {
+                "libraryId": "LIB-YT-01",
+                "publicSchoolLibrary": "Public",
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "collectionQuality": "Fair",
+                        "physicalVisitsPerMonth": 110,
+                        "restockRate": 1.1,
+                        "booksDeliveredQuantity": 480
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "collectionQuality": "Fair",
+                        "physicalVisitsPerMonth": 134,
+                        "restockRate": 1.7,
+                        "booksDeliveredQuantity": 559
+                    }
+                ]
+            },
+            "outcomes": {
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "kindergartenReadinessScore": 43,
+                        "grade4ReadingScore": 46,
+                        "grade8ReadingScore": 45,
+                        "literacyScore": 44,
+                        "highSchoolGraduationRate": 66,
+                        "nationalStateAverageKindergartenReadinessScore": 61,
+                        "nationalStateAverageGrade4ReadingScore": 63,
+                        "nationalStateAverageGrade8ReadingScore": 62,
+                        "nationalStateLiteracyScore": 62,
+                        "nationalStateHighSchoolGraduationRate": 88,
+                        "assessmentTool": "MAP Growth",
+                        "percentageBenchmark": 50
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "kindergartenReadinessScore": 45.5,
+                        "grade4ReadingScore": 48.5,
+                        "grade8ReadingScore": 47,
+                        "literacyScore": 46.5,
+                        "highSchoolGraduationRate": 67.2,
+                        "nationalStateAverageKindergartenReadinessScore": 61,
+                        "nationalStateAverageGrade4ReadingScore": 63,
+                        "nationalStateAverageGrade8ReadingScore": 62,
+                        "nationalStateLiteracyScore": 62,
+                        "nationalStateHighSchoolGraduationRate": 88,
+                        "assessmentTool": "MAP Growth",
+                        "percentageBenchmark": 54.9
+                    }
+                ]
+            }
+        },
+        "CROW-TRIBE-01": {
+            "id": "CROW-TRIBE-01",
+            "communityId": "CROW-TRIBE-01",
+            "tribeNation": "CROW",
+            "geography": {
+                "locationId": "LOC-92038",
+                "communityName": "Crow Tribe of Montana",
+                "bookEcosystem": "Tribal Nations",
+                "gisCoordinates": "45.6033, -107.4557",
+                "region": "United States"
+            },
+            "population": {
+                "reportingYear": "2026",
+                "ruralUrban": "Rural",
+                "population": 7900,
+                "participantsServed": 0,
+                "estimatedFootTraffic": 0
+            },
+            "program": {
+                "programId": "PRG-CTM-01",
+                "stewardName": "Levi Bear Cloud",
+                "startDate": "2026-08-01",
+                "status": "Planning",
+                "baselineDate": "2026-09-01",
+                "sixMonthDate": null,
+                "twelveMonthDate": null,
+                "twentyFourMonthDate": null
+            },
+            "library": {
+                "libraryId": "LIB-CTM-01",
+                "publicSchoolLibrary": "School",
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "collectionQuality": "Fair",
+                        "physicalVisitsPerMonth": 75,
+                        "restockRate": 0.7,
+                        "booksDeliveredQuantity": 180
+                    }
+                ]
+            },
+            "outcomes": {
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "kindergartenReadinessScore": 40,
+                        "grade4ReadingScore": 43,
+                        "grade8ReadingScore": 42,
+                        "literacyScore": 41,
+                        "highSchoolGraduationRate": 63,
+                        "nationalStateAverageKindergartenReadinessScore": 56,
+                        "nationalStateAverageGrade4ReadingScore": 58,
+                        "nationalStateAverageGrade8ReadingScore": 57,
+                        "nationalStateLiteracyScore": 57,
+                        "nationalStateHighSchoolGraduationRate": 85,
+                        "assessmentTool": "DIBELS",
+                        "percentageBenchmark": 50
+                    }
+                ]
+            }
+        },
+        "NEBRASKA-01": {
+            "id": "NEBRASKA-01",
+            "communityId": "NEBRASKA-01",
+            "tribeNation": "NEBRASKA",
+            "geography": {
+                "locationId": "LOC-40112",
+                "communityName": "Nebraska Consortium",
+                "bookEcosystem": "Little Free Library",
+                "gisCoordinates": "41.4925, -99.9018",
+                "region": "United States"
+            },
+            "population": {
+                "reportingYear": "2026",
+                "ruralUrban": "Rural",
+                "population": 48000,
+                "participantsServed": 1450,
+                "estimatedFootTraffic": 3200
+            },
+            "program": {
+                "programId": "PRG-NE-01",
+                "stewardName": "Karen Whitfield",
+                "startDate": "2024-02-01",
+                "status": "Active",
+                "baselineDate": "2024-02-15",
+                "sixMonthDate": "2024-08-15",
+                "twelveMonthDate": "2025-02-15",
+                "twentyFourMonthDate": null
+            },
+            "library": {
+                "libraryId": "LIB-NE-01",
+                "publicSchoolLibrary": "Public",
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "collectionQuality": "Good",
+                        "physicalVisitsPerMonth": 340,
+                        "restockRate": 1.5,
+                        "booksDeliveredQuantity": 1100
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "collectionQuality": "Good",
+                        "physicalVisitsPerMonth": 377,
+                        "restockRate": 2.1,
+                        "booksDeliveredQuantity": 1232
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "collectionQuality": "Excellent",
+                        "physicalVisitsPerMonth": 374,
+                        "restockRate": 2.4,
+                        "booksDeliveredQuantity": 1242
+                    }
+                ]
+            },
+            "outcomes": {
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "kindergartenReadinessScore": 52,
+                        "grade4ReadingScore": 55,
+                        "grade8ReadingScore": 53,
+                        "literacyScore": 54,
+                        "highSchoolGraduationRate": 80,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "NAEP",
+                        "percentageBenchmark": 50
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "kindergartenReadinessScore": 54.1,
+                        "grade4ReadingScore": 57.1,
+                        "grade8ReadingScore": 54.7,
+                        "literacyScore": 56.1,
+                        "highSchoolGraduationRate": 81.1,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "NAEP",
+                        "percentageBenchmark": 54.2
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "kindergartenReadinessScore": 57.3,
+                        "grade4ReadingScore": 60.3,
+                        "grade8ReadingScore": 57.2,
+                        "literacyScore": 59.3,
+                        "highSchoolGraduationRate": 82.7,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "NAEP",
+                        "percentageBenchmark": 60.6
+                    }
+                ]
+            }
+        },
+        "CALIFORNIA-01": {
+            "id": "CALIFORNIA-01",
+            "communityId": "CALIFORNIA-01",
+            "tribeNation": "CALIFORNIA",
+            "geography": {
+                "locationId": "LOC-40877",
+                "communityName": "Central Valley Initiative",
+                "bookEcosystem": "New Media Learning",
+                "gisCoordinates": "36.7783, -119.4179",
+                "region": "United States"
+            },
+            "population": {
+                "reportingYear": "2026",
+                "ruralUrban": "Suburban",
+                "population": 21000,
+                "participantsServed": 400,
+                "estimatedFootTraffic": 960
+            },
+            "program": {
+                "programId": "PRG-CA-01",
+                "stewardName": "Priya Anand",
+                "startDate": "2023-04-01",
+                "status": "Active",
+                "baselineDate": "2023-04-10",
+                "sixMonthDate": "2023-10-10",
+                "twelveMonthDate": "2024-04-10",
+                "twentyFourMonthDate": "2025-04-10"
+            },
+            "library": {
+                "libraryId": "LIB-CA-01",
+                "publicSchoolLibrary": "Both",
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "collectionQuality": "Good",
+                        "physicalVisitsPerMonth": 510,
+                        "restockRate": 1.8,
+                        "booksDeliveredQuantity": 2100
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "collectionQuality": "Good",
+                        "physicalVisitsPerMonth": 547,
+                        "restockRate": 2.2,
+                        "booksDeliveredQuantity": 2237
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "collectionQuality": "Excellent",
+                        "physicalVisitsPerMonth": 560,
+                        "restockRate": 2.9,
+                        "booksDeliveredQuantity": 2398
+                    },
+                    {
+                        "assessmentPoint": "24 Months",
+                        "collectionQuality": "Excellent",
+                        "physicalVisitsPerMonth": 558,
+                        "restockRate": 2.7,
+                        "booksDeliveredQuantity": 2262
+                    }
+                ]
+            },
+            "outcomes": {
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "kindergartenReadinessScore": 55,
+                        "grade4ReadingScore": 58,
+                        "grade8ReadingScore": 56,
+                        "literacyScore": 57,
+                        "highSchoolGraduationRate": 83,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "NAEP",
+                        "percentageBenchmark": 50
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "kindergartenReadinessScore": 57.5,
+                        "grade4ReadingScore": 60.5,
+                        "grade8ReadingScore": 58,
+                        "literacyScore": 59.5,
+                        "highSchoolGraduationRate": 84.3,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "NAEP",
+                        "percentageBenchmark": 55
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "kindergartenReadinessScore": 58.3,
+                        "grade4ReadingScore": 61.3,
+                        "grade8ReadingScore": 58.7,
+                        "literacyScore": 60.3,
+                        "highSchoolGraduationRate": 84.7,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "NAEP",
+                        "percentageBenchmark": 56.7
+                    },
+                    {
+                        "assessmentPoint": "24 Months",
+                        "kindergartenReadinessScore": 66.3,
+                        "grade4ReadingScore": 69.3,
+                        "grade8ReadingScore": 65.1,
+                        "literacyScore": 68.3,
+                        "highSchoolGraduationRate": 88.7,
+                        "nationalStateAverageKindergartenReadinessScore": 58,
+                        "nationalStateAverageGrade4ReadingScore": 60,
+                        "nationalStateAverageGrade8ReadingScore": 58,
+                        "nationalStateLiteracyScore": 59,
+                        "nationalStateHighSchoolGraduationRate": 87,
+                        "assessmentTool": "NAEP",
+                        "percentageBenchmark": 72.7
+                    }
+                ]
+            }
+        },
+        "KENYA-01": {
+            "id": "KENYA-01",
+            "communityId": "KENYA-01",
+            "tribeNation": "KENYA",
+            "geography": {
+                "locationId": "LOC-88562",
+                "communityName": "Kibera Network",
+                "bookEcosystem": "Soma Safari",
+                "gisCoordinates": "-1.3133, 36.7833",
+                "region": "Kenya"
+            },
+            "population": {
+                "reportingYear": "2026",
+                "ruralUrban": "Urban",
+                "population": 250000,
+                "participantsServed": 3100,
+                "estimatedFootTraffic": 6700
+            },
+            "program": {
+                "programId": "PRG-KE-01",
+                "stewardName": "Wanjiru Mwangi",
+                "startDate": "2022-10-01",
+                "status": "Active",
+                "baselineDate": "2022-10-15",
+                "sixMonthDate": "2023-04-15",
+                "twelveMonthDate": "2023-10-15",
+                "twentyFourMonthDate": "2024-10-15"
+            },
+            "library": {
+                "libraryId": "LIB-KE-01",
+                "publicSchoolLibrary": "Both",
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "collectionQuality": "Poor",
+                        "physicalVisitsPerMonth": 150,
+                        "restockRate": 0.9,
+                        "booksDeliveredQuantity": 700
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "collectionQuality": "Fair",
+                        "physicalVisitsPerMonth": 188,
+                        "restockRate": 1.3,
+                        "booksDeliveredQuantity": 783
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "collectionQuality": "Fair",
+                        "physicalVisitsPerMonth": 226,
+                        "restockRate": 1.8,
+                        "booksDeliveredQuantity": 948
+                    },
+                    {
+                        "assessmentPoint": "24 Months",
+                        "collectionQuality": "Good",
+                        "physicalVisitsPerMonth": 231,
+                        "restockRate": 1.9,
+                        "booksDeliveredQuantity": 901
+                    }
+                ]
+            },
+            "outcomes": {
+                "items": [
+                    {
+                        "assessmentPoint": "Baseline",
+                        "kindergartenReadinessScore": 33,
+                        "grade4ReadingScore": 36,
+                        "grade8ReadingScore": 35,
+                        "literacyScore": 34,
+                        "highSchoolGraduationRate": 58,
+                        "nationalStateAverageKindergartenReadinessScore": 45,
+                        "nationalStateAverageGrade4ReadingScore": 47,
+                        "nationalStateAverageGrade8ReadingScore": 46,
+                        "nationalStateLiteracyScore": 46,
+                        "nationalStateHighSchoolGraduationRate": 66,
+                        "assessmentTool": "EGRA",
+                        "percentageBenchmark": 50
+                    },
+                    {
+                        "assessmentPoint": "6 Months",
+                        "kindergartenReadinessScore": 34.7,
+                        "grade4ReadingScore": 37.7,
+                        "grade8ReadingScore": 36.4,
+                        "literacyScore": 35.7,
+                        "highSchoolGraduationRate": 58.9,
+                        "nationalStateAverageKindergartenReadinessScore": 45,
+                        "nationalStateAverageGrade4ReadingScore": 47,
+                        "nationalStateAverageGrade8ReadingScore": 46,
+                        "nationalStateLiteracyScore": 46,
+                        "nationalStateHighSchoolGraduationRate": 66,
+                        "assessmentTool": "EGRA",
+                        "percentageBenchmark": 53.5
+                    },
+                    {
+                        "assessmentPoint": "12 Months",
+                        "kindergartenReadinessScore": 36.2,
+                        "grade4ReadingScore": 39.2,
+                        "grade8ReadingScore": 37.6,
+                        "literacyScore": 37.2,
+                        "highSchoolGraduationRate": 59.6,
+                        "nationalStateAverageKindergartenReadinessScore": 45,
+                        "nationalStateAverageGrade4ReadingScore": 47,
+                        "nationalStateAverageGrade8ReadingScore": 46,
+                        "nationalStateLiteracyScore": 46,
+                        "nationalStateHighSchoolGraduationRate": 66,
+                        "assessmentTool": "EGRA",
+                        "percentageBenchmark": 56.5
+                    },
+                    {
+                        "assessmentPoint": "24 Months",
+                        "kindergartenReadinessScore": 38.3,
+                        "grade4ReadingScore": 41.3,
+                        "grade8ReadingScore": 39.3,
+                        "literacyScore": 39.3,
+                        "highSchoolGraduationRate": 60.7,
+                        "nationalStateAverageKindergartenReadinessScore": 45,
+                        "nationalStateAverageGrade4ReadingScore": 47,
+                        "nationalStateAverageGrade8ReadingScore": 46,
+                        "nationalStateLiteracyScore": 46,
+                        "nationalStateHighSchoolGraduationRate": 66,
+                        "assessmentTool": "EGRA",
+                        "percentageBenchmark": 60.6
+                    }
+                ]
+            }
+        },
+        "KELOW082601": {
+            "id": "kelow082601",
+            "communityId": "KELOW082601",
+            "tribeNation": "ONEOFUS",
+            "geography": {
+                "locationId": "LOC74082601",
+                "communityName": "KELOWNA",
+                "bookEcosystem": "Tribal Nations",
+                "gisCoordinates": "74.647-48.47",
+                "region": "CANADA"
+            },
+            "population": {
+                "reportingYear": "2026-08-09",
+                "ruralUrban": "Rural",
+                "population": 160000,
+                "participantsServed": 300,
+                "estimatedFootTraffic": 50
+            },
+            "program": {
+                "programId": "TRISYS082601",
+                "stewardName": "",
+                "startDate": "",
+                "status": "",
+                "baselineDate": "",
+                "sixMonthDate": "",
+                "twelveMonthDate": "",
+                "twentyFourMonthDate": ""
+            },
+            "library": {
+                "libraryId": "LIBCAN082601",
+                "publicSchoolLibrary": "",
+                "items": []
+            },
+            "outcomes": {
+                "items": []
+            }
+        }
+    },
+    "charts": [],
+    "schema": [],
+    "tasks": []
+}

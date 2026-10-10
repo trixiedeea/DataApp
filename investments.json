@@ -1,0 +1,69 @@
+[
+    {
+        "investmentId": "INV-2026-001",
+        "Sponsor_ID": "SP-1001",
+        "fundingAmount": 15000,
+        "dateReceived": "2026-01-15",
+        "fundingSourceType": "Grant",
+        "fundingBody": "National Endowment for the Arts",
+        "dateDisbursed": "2026-02-01",
+        "fundsOutcome": "Eastern Band of Cherokee Indians (PRG-EBCI-01)",
+        "fundsResults": "Literacy program expansion and new library branch"
+    },
+    {
+        "investmentId": "INV-2026-002",
+        "Sponsor_ID": "SP-1002",
+        "fundingAmount": 12500,
+        "dateReceived": "2026-02-10",
+        "fundingSourceType": "Donation",
+        "fundingBody": "Little Free Libraries Foundation",
+        "dateDisbursed": "2026-02-20",
+        "fundsOutcome": "Lumbee Tribe of North Carolina Program (PRG-LTNC-01)",
+        "fundsResults": "Purchase of approximately 2,000 new books"
+    },
+    {
+        "investmentId": "INV-2025-014",
+        "Sponsor_ID": "SP-0998",
+        "fundingAmount": 28000,
+        "dateReceived": "2025-11-05",
+        "fundingSourceType": "Fundraiser",
+        "fundingBody": "Reading Nation Waterfall Annual Gala",
+        "dateDisbursed": "2025-11-20",
+        "fundsOutcome": "Central Valley Book Access Initiative (PRG-CA-01)",
+        "fundsResults": "Mobile library van maintenance and fuel costs"
+    },
+    {
+        "investmentId": "INV-2026-003",
+        "Sponsor_ID": "SP-1003",
+        "fundingAmount": 50000,
+        "dateReceived": "2026-03-01",
+        "fundingSourceType": "Corporate Sponsor",
+        "fundingBody": "Scholastic Inc.",
+        "dateDisbursed": "2026-03-15",
+        "fundsOutcome": "Nebraska Rural Library Consortium (PRG-NE-01)",
+        "fundsResults": "Literacy curriculum materials and tutor stipends"
+    },
+    {
+        "investmentId": "INV-2025-021",
+        "Sponsor_ID": "SP-1004",
+        "fundingAmount": 15000,
+        "dateReceived": "2025-09-12",
+        "fundingSourceType": "Other",
+        "fundingSourceOther": "In-kind book donation, valued equivalent",
+        "fundingBody": "Kenya National Library Service",
+        "dateDisbursed": "2025-09-30",
+        "fundsOutcome": "Kibera Community Library Network (PRG-KE-01)",
+        "fundsResults": "Shelving units and reading corner construction"
+    },
+    {
+        "investmentId": "INV-2026-004",
+        "Sponsor_ID": "SP-1005",
+        "fundingAmount": 9800,
+        "dateReceived": "2026-04-18",
+        "fundingSourceType": "Grant",
+        "fundingBody": "USAID Ukraine Education Recovery Fund",
+        "dateDisbursed": "2026-05-01",
+        "fundsOutcome": "Lviv Community Library Network (PRG-UA-01)",
+        "fundsResults": "Emergency book replacement after facility relocation"
+    }
+]
